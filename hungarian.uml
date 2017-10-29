@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dk.hungarian</OriginalElement>
+  <nodes>
+    <node x="16.5" y="0.0">dk.hungarian.Item</node>
+    <node x="251.578125" y="122.5">dk.hungarian.Player</node>
+    <node x="233.546875" y="549.0">dk.hungarian.Main</node>
+    <node x="2.5" y="380.0">dk.hungarian.Kort</node>
+    <node x="207.5" y="414.0">dk.hungarian.Test</node>
+    <node x="484.578125" y="0.0">dk.hungarian.ItemType</node>
+    <node x="0.0" y="101.0">dk.hungarian.Tile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dk.hungarian.Kort" target="dk.hungarian.Tile">
+      <point x="-61.66666666666666" y="-59.5" />
+      <point x="33.33333333333334" y="355.0" />
+      <point x="31.666666666666657" y="355.0" />
+      <point x="-63.333333333333336" y="114.5" />
+    </edge>
+    <edge source="dk.hungarian.Main" target="dk.hungarian.Test">
+      <point x="-22.875" y="-25.5" />
+      <point x="302.171875" y="529.0" />
+      <point x="294.0" y="529.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="dk.hungarian.Main" target="dk.hungarian.Kort">
+      <point x="-68.625" y="-25.5" />
+      <point x="256.421875" y="529.0" />
+      <point x="95.0" y="529.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="dk.hungarian.Test" target="dk.hungarian.Player">
+      <point x="-43.25" y="-25.5" />
+      <point x="250.75" y="355.0" />
+      <point x="275.078125" y="355.0" />
+      <point x="-70.5" y="93.0" />
+    </edge>
+    <edge source="dk.hungarian.Tile" target="dk.hungarian.Item">
+      <point x="63.33333333333334" y="-114.5" />
+      <point x="158.33333333333334" y="76.0" />
+      <point x="147.33333333333334" y="76.0" />
+      <point x="52.33333333333334" y="25.5" />
+    </edge>
+    <edge source="dk.hungarian.Main" target="dk.hungarian.Player">
+      <point x="22.875" y="-25.5" />
+      <point x="347.921875" y="519.0" />
+      <point x="391.0" y="519.0" />
+      <point x="391.0" y="355.0" />
+      <point x="369.078125" y="355.0" />
+      <point x="23.5" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7629032258064516" x="323.0" y="300.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
